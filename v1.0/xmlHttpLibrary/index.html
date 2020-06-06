@@ -1,0 +1,30 @@
+<html>
+
+<body>
+    <script src="index.js"></script>
+    <script>
+
+        var data = {
+
+            data: 'any type of data with correct content type set',
+            url: "http://localhost",
+            contentType: undefined,
+            method: "GET",
+            abortTime: undefined,
+            headers: undefined,
+
+        };
+
+        Ajax(data)
+            .then(r => {
+                console.log(r);
+            })
+            .catch(e => {
+                console.log(e);
+            })
+
+
+    </script>
+</body>
+
+</html>
